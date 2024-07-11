@@ -15,7 +15,6 @@ namespace Calculator_App
         public Form1()
         {
             InitializeComponent();
-            
         }
 
         private double operandOne;
@@ -96,7 +95,7 @@ namespace Calculator_App
                     {
                         // Handle division by zero case
                         results = 0; // or any other value indicating an error
-                        MessageBox.Show("Cannot divide by zero");
+                        MessageBox.Show("Cannot divide by Zero!");
                     }
                     break;
                 default:
